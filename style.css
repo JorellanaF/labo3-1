@@ -11,7 +11,7 @@ h3 {
 p{
     font-family: 'Roboto', sans-serif;
     color: gray;
-    padding-right: 5em;
+    padding-right: 2em;
 }
 
 #boton1 {
@@ -21,7 +21,8 @@ p{
     border-radius: 10px;
     border: 1px solid #f56a6a;
     font-size: 1.5em;
-    padding: 0.5em;
+    padding: 0.5em 3em;
+    margin: 1em;
 }
 
 #boton1:hover {
@@ -53,6 +54,10 @@ img {
     border-radius: 10px;
 }
 
+.section1 {
+    display: grid;
+}
+
 article {
     display: flex;
     flex-direction: row;
@@ -60,10 +65,10 @@ article {
 
 .main {
     margin-top: 5em;
-    padding-right: 10em;
+    padding-right: 5em;
 }
 
-.section1 {
+.section2 {
     display: grid;
 }
 
@@ -72,9 +77,9 @@ article {
     border-bottom: 5px solid rgb(255, 136, 0);
 }
 
-.section2 article {
+.section2 article div {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
 }
 
 .iconos {
